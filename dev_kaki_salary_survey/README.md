@@ -72,6 +72,28 @@ For example, salary that does not makes sense (monthly salary of MYR 9.2mil and 
 > Some salary ranges from RM1 to RM1700. These data coming from intern or student. I keep them in the dataset, but you can filter them out for your own data analytics purpose.
 
 
+## Cleansed Column (Not an exhaustive list)
+
+1. **Gender** (It is not politically correct, but I removed `Others` from the dataset)
+2. **Current State of Residence** (Corrected the data to valid states in Malaysia. For example, `Puchong` to `Selangor`)
+3. **Name of highest degree obtained** (Categorized the data into major branch. For example, `Information Technology`, `Software Engineering` and `Computer Science` )
+4. **Name of School or University** (Corrected most of the significant institutions in Malaysia only. For example, `utar` to `UTAR University Tunku Abdul Rahman`, `usm` to `USM Univesiti Sains Malaysia`)
+5. **Job Title** (Categorized some of the data into more general job title. For example, `mobile developer` to `Mobile Application Developer`)
+
+    a. Ranking of the Job Title at the time of writing this (Based on the count) - `Software Engineer` (134), `Software Developer`(48), `Senior Software Engineer`(35), `Full Stack Developer`(25), `Front End Developer`(23), `Data Engineer`(18), `Web Developer`(15), `Mobile Application Developer`(15), `Data Scientist`(15), etc.
+
+6. Tech Stack used (Quite a number of the responses is in the form of a mixture of tech stack - Such as `ASP.NET Core` and `Angular`. Therefore, a lot of processing would need to be done if you want a answer a question like `How many among the respondent use Angular or XXX?`)
+
+7. Years of Experience (Categorized the data into)
+
+    - Less than a year
+    - 1 to 3 years (_1.0000 year to 2.9999 years_)
+    - 3 to 5 years (_3.0000 year to 4.9999 years_)
+    - 5 to 10 years
+    - 10 to 15 years
+    - 15 to 20 years
+    - More than 20 years
+
 
 ## Result - File format
 
@@ -86,6 +108,10 @@ The dashboard made using Tableau software.
 ![screenshot](dashboard.jpeg)
 
 [Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
+
+## Disclaimer
+
+I am not an expert of data engineering, so the cleansing done to the data might introduced a certain degree/level of corruption to the dataset due to aggressive cleansing/incorrect practices.
 
 ## Credits to the Dataset Owner, Survey Initiators, Volunteers, etc.
 
