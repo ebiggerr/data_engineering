@@ -105,17 +105,25 @@ For example, salary that does not makes sense (monthly salary of MYR 9.2mil and 
 
 The dashboards made using Tableau software. So far, 3 different dashboard.
 
-![screenshot](dashboard.jpeg)
+<a href="https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1"><img src="img/Dashboard1.jpeg">
 
 [Link to the public dashboard - Demography](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
 
+<a href="https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard2"><img src="img/Dashboard2.jpeg">
+
 [Link to the public dashboard - Education](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard2)
+
+<a href="https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard3"><img src="img/Dashboard3.jpeg">
 
 [Link to the public dashboard - Tech Stack](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard3)
 
 ## Disclaimer
 
 I am not an expert of data engineering, so the cleansing done to the data might introduced a certain degree/level of corruption to the dataset due to aggressive cleansing/incorrect practices.
+
+## Contribution
+
+I have included the packaged workbook, you should be able to work on the dataset embedded inside the workbook using the local copy. Feel free to create issue or make PR if you have idea on improving the dashboard or the data cleansing.
 
 ## Credits to the Dataset Owner, Survey Initiators, Volunteers, etc.
 
