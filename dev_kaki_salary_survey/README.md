@@ -103,11 +103,15 @@ For example, salary that does not makes sense (monthly salary of MYR 9.2mil and 
 
 ## Proof of Concept
 
-The dashboard made using Tableau software.
+The dashboards made using Tableau software. So far, 3 different dashboard.
 
 ![screenshot](dashboard.jpeg)
 
 [Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
+
+[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard2)
+
+[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard3)
 
 ## Disclaimer
 
