@@ -60,15 +60,38 @@ To give a clearer idea of what I am saying. In the raw dataset, we can have
 
 By removing the specifications, we might be able to do a comparison on the salary among `Computer Science` graduate and `Software Engineering` graduate. (But, is the comparison meaningful? Probably not.)
 
+### Cleaning the noise
+
+There is no way we can verify the salary information, therefore you can expect that there will be noise data (data that does not makes sense)
+
+For example, salary that does not makes sense (monthly salary of MYR 9.2mil and the age of respondent is 15).
+
+<img src="img/noise data example.png">
+
+
+> Some salary ranges from RM1 to RM1700. These data coming from intern or student. I keep them in the dataset, but you can filter them out for your own data analytics purpose.
+
+
+
 ## Result - File format
 
 `*.txt` - Version-control friendly. (tab-separated values)
 
-`*.xlsx` - User friendly to view the datasheet
+`*.xlsx` - User friendly to view the datasheet using Microsoft Excel
 
-## Credits
+## Proof of Concept
+
+The dashboard made using Tableau software.
+
+![screenshot](dashboard.jpeg)
+
+[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
+
+## Credits to the Dataset Owner, Survey Initiators, Volunteers, etc.
 
 - Daren Tan [Linkedin](https://www.linkedin.com/in/daren-tan/)
 - Sook Yan Hue
 - Team volunteers for helping to create this detailed survey
 - All the respondent from Developer Kaki
+
+Thank you for sharing and improving the dataset.
