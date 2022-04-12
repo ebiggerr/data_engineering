@@ -77,7 +77,7 @@ For example, salary that does not makes sense (monthly salary of MYR 9.2mil and 
 1. **Gender** (It is not politically correct, but I removed `Others` from the dataset)
 2. **Current State of Residence** (Corrected the data to valid states in Malaysia. For example, `Puchong` to `Selangor`)
 3. **Name of highest degree obtained** (Categorized the data into major branch. For example, `Information Technology`, `Software Engineering` and `Computer Science` )
-4. **Name of School or University** (Corrected most of the significant institutions in Malaysia only. For example, `utar` to `UTAR University Tunku Abdul Rahman`, `usm` to `USM Univesiti Sains Malaysia`)
+4. **Name of School or University** (Corrected most of the significant institutions in Malaysia only. For example, `utar` to `UTAR University Tunku Abdul Rahman`, `usm` to `USM Universiti Sains Malaysia`)
 5. **Job Title** (Categorized some of the data into more general job title. For example, `mobile developer` to `Mobile Application Developer`)
 
     a. Ranking of the Job Title at the time of writing this (Based on the count) - `Software Engineer` (134), `Software Developer`(48), `Senior Software Engineer`(35), `Full Stack Developer`(25), `Front End Developer`(23), `Data Engineer`(18), `Web Developer`(15), `Mobile Application Developer`(15), `Data Scientist`(15), etc.
@@ -107,11 +107,11 @@ The dashboards made using Tableau software. So far, 3 different dashboard.
 
 ![screenshot](dashboard.jpeg)
 
-[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
+[Link to the public dashboard - Demography](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard1)
 
-[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard2)
+[Link to the public dashboard - Education](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard2)
 
-[Link to the public dashboard](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard3)
+[Link to the public dashboard - Tech Stack](https://public.tableau.com/app/profile/ebiggerr.yong/viz/DevKakiSalarySurveyDashboard/Dashboard3)
 
 ## Disclaimer
 
